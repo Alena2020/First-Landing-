@@ -50,6 +50,34 @@ a{
   background-color:aqua;
 }
 
+#home{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 16px;
+}
+
+.info{
+  margin: 48px 0;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.anchor{
+  display: inline-block;
+  border: 1px solid rgb(13, 110, 253);
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 110, 253);
+}
+
 .footer {
   min-height: 30vh;
   background-color:mediumblue;
