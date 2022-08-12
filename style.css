@@ -1,0 +1,27 @@
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bubblegum Sans", cursive;
+  max-height: 100vh;
+  background-color: #8cd8e6;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  min-height: 10vh;
+  background-color: #0dcaf0;
+}
+
+.main {
+  min-height: 60vh;
+  background-color:aqua;
+}
+
+.footer {
+  min-height: 30vh;
+  background-color:mediumblue;
+}
