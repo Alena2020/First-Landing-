@@ -152,5 +152,33 @@ p{
 
 .footer {
   min-height: 30vh;
-  background-color:mediumblue;
+  max-width: 100%;
+  background-color:rgba(0, 0, 0, 0.85);
+  padding: 48px 16px;
+  margin: 0;
+  color: rgb(108, 117, 125);
+}
+
+#contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#contact-col1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0 16px;
+  margin: auto;
+}
+
+#footer_link_logo,
+#footer_link_home,
+#footer_link_product,
+#footer_link_contact{
+  color: rgb(108, 117, 125);
+  text-decoration: none solid rgb(108, 117, 125);
+  margin-right: 16px;
 }
